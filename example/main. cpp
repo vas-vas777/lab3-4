@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include <math.h>
+#include<conio.h>
+int main()
+{
+    const double p1=3.14159;
+    int k;
+    double sum,n,z;
+
+    k=0; sum=0; n=1;
+    z=pow(p1,2.)/6;
+
+    do
+    {
+        sum=1./pow(n,2.)+sum;
+        n++;
+        k+=1;
+    }
+    while (sum<=z);
+    printf("sum=%f k=%d z=%f",sum,k,z);
+    _gectch();
+    return 0;
+}
