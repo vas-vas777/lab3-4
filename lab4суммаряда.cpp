@@ -7,7 +7,7 @@ int main()
 {
 	int k;
 	const double pi=3.14159;
-     double sum,n,z;
+        double sum,n,z;
 	
 	k = 0; sum = 0; n = 1;
 	z = pow(pi, 2.) / 6.;
